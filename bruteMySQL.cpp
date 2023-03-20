@@ -42,10 +42,11 @@ int main(){
         
         if(!result){}
         else{
-            cout<< "Password Founded: " << passwords[i] << endl;
+            cout<< "Password Found: " << passwords[i] << endl;
             break;
         }
     }   
 
     return 0;
+
 }
